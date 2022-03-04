@@ -1,0 +1,15 @@
+@media all and (min-width: 480px) and (max-width: 1000px) {
+  .section-1 {
+    background-image: url(/images/premium_dancer.png);
+  }
+  .show-plans {
+    padding-top: 10px;
+    width: 100px;
+    height: 30px;
+  }
+}
+@media all and (min-width: 1000px) {
+  .section-1 {
+    background-image: url(/images/premium_dancer.png);
+  }
+}

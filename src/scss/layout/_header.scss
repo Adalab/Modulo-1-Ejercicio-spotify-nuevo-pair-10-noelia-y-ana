@@ -1,0 +1,34 @@
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-content: center;
+  width: 100%;
+  padding: 0 1em;
+}
+.logo-spotify {
+  width: auto;
+  height: 60px;
+  align-items: center;
+  display: flex;
+}
+.icon_hamburguer {
+  width: 60px;
+  height: 60px;
+  color: white;
+  align-items: center;
+  display: flex;
+}
