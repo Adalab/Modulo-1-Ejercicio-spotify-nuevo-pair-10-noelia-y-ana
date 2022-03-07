@@ -1,4 +1,4 @@
-.section-1 {
+.section1 {
   background-color: rgb(64, 115, 224);
   display: flex;
   flex-direction: column;
@@ -6,56 +6,68 @@
   align-content: center;
   color: white;
   padding: 20px;
+  @media all and (min-width: 480px) and (max-width: 1000px) {
+    background-image: url(/images/premium_dancer.png);
+  }
+  @media all and (min-width: 1000px) {
+    background-image: url(/images/premium_dancer.png);
+  }
+
+  &__subtitle {
+    width: 80%;
+  }
+  &__link {
+    color: white;
+    background-color: rgb(59, 168, 59);
+    border-radius: 20px;
+    padding-top: 10px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    @media all and (min-width: 480px) and (max-width: 1000px) {
+      padding-top: 10px;
+      width: 100px;
+      height: 30px;
+    }
+  }
 }
-.h2-blue {
-  width: 80%;
-}
-.h2-white {
-  text-align: center;
-  width: 60%;
-  padding-left: 80px;
-}
-.show-plans {
-  color: white;
-  background-color: rgb(59, 168, 59);
-  border-radius: 20px;
-  padding-top: 10px;
-  width: 100%;
-  height: 30px;
-  text-align: center;
-  text-decoration: none;
-}
-.section-2 {
+.section2 {
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-}
-.options {
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-around;
-}
-.article {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  &__subtitle {
+    text-align: center;
+    width: 60%;
+    padding-left: 80px;
+  }
+  &__options {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+  }
+  &__options {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.container__text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-.icons {
-  width: 70px;
-  height: 100px;
+  &__icon {
+    width: 70px;
+    height: 100px;
+  }
 }

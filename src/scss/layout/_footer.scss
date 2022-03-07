@@ -1,14 +1,15 @@
 .footer {
   padding: 20px;
-  background-color: rgb(64, 115, 224);
+  background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: space-between;
-}
-.grupo-enlaces {
-  list-style: none;
-  text-decoration: none;
-}
-.spain__spotify {
-  display: flex;
-  flex-direction: column-reverse;
+
+  &__links {
+    list-style: none;
+    text-decoration: none;
+  }
+  &__spain {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

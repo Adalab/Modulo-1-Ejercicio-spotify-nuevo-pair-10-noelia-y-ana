@@ -10,25 +10,27 @@
   top: 0;
   width: 100%;
   z-index: 999;
-}
-.header_container {
-  display: flex;
-  justify-content: space-between;
-  color: white;
-  align-content: center;
-  width: 100%;
-  padding: 0 1em;
-}
-.logo-spotify {
-  width: auto;
-  height: 60px;
-  align-items: center;
-  display: flex;
-}
-.icon_hamburguer {
-  width: 60px;
-  height: 60px;
-  color: white;
-  align-items: center;
-  display: flex;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-content: center;
+    width: 100%;
+    padding: 0 1em;
+  }
+
+  &__logospotify {
+    width: auto;
+    height: 60px;
+    align-items: center;
+    display: flex;
+  }
+  &__icon {
+    width: 60px;
+    height: 60px;
+    color: white;
+    align-items: center;
+    display: flex;
+  }
 }
